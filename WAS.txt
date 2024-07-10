@@ -20,12 +20,12 @@ import os
 from openai import OpenAI  # Importieren Sie die OpenAI-Klasse
 import tkinter as tk
 
-aai.settings.api_key = "217e482afc4a4cc28f476d5b09ae1bd7"
+aai.settings.api_key = "XXXX"
 is_recording = False
 recording_thread = None
 recording_start_time = None
 recording_end_time = None
-api_key = 'sk-proj-diA6VRPK45aVHKFxTLbQT3BlbkFJ6orS8j6GrqSmLQNa057K'
+api_key = 'XXX'
 client = OpenAI(api_key=api_key)
 
 # Farben
