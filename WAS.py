@@ -9,7 +9,7 @@ from ultralytics import YOLO
 import mediapipe as mp
 import pygame
 import logging
-import os  # Import für Verzeichnisauflistung
+import os
 import sounddevice as sd
 import numpy as np
 import scipy.io.wavfile as wav
@@ -17,7 +17,7 @@ import assemblyai as aai
 import datetime
 from datetime import datetime as dt
 import os
-from openai import OpenAI  # Importieren Sie die OpenAI-Klasse
+from openai import OpenAI
 import tkinter as tk
 
 aai.settings.api_key = "XXXX"
